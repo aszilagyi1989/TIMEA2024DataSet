@@ -16,3 +16,5 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 3.5)
+URL: https://github.com/aszilagyi1989/TIMEA2024DataSet
+BugReports: https://github.com/aszilagyi1989/TIMEA2024DataSet/issues
