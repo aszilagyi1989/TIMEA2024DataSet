@@ -16,8 +16,8 @@
 library("sf")
 
 CountiesOfHungary <- data.frame()
-CountiesOfHungary <- st_read("/vsicurl/https://github.com/aszilagyi1989/TIMEA_Quarto_Shinylive_2024/raw/refs/heads/main/JSon/megye_pbi.shp")
-usethis::use_data(CountiesOfHungary)
+CountiesOfHungary <- read_sf(paste0(getwd(), "/JSon/megye_pbi.shp")) # st_read("/vsicurl/https://github.com/aszilagyi1989/TIMEA_Quarto_Shinylive_2024/raw/refs/heads/main/JSon/megye_pbi.shp")
+usethis::use_data(CountiesOfHungary, overwrite = TRUE)
 #save(TIMEA2024, file = "/data/CountiesOfHungary.rda")
 
 
