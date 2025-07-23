@@ -40,3 +40,7 @@ TIMEA2024 <- function() {
 
 
 # save(TIMEA2024, file = 'data/CountiesOfHungary.rda')
+
+usethis::use_git()
+usethis::use_github()
+devtools::install_github("aszilagyi1989/TIMEA2024DataSet")
